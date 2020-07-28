@@ -126,3 +126,11 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_PASSWORD = '************'            #Your Password
+
+# You also need to turn on the less secure apps settings on from the google account from where you
+# want to send mails. The less secure apps usually don't recommend to turn it on. But you can turn 
+# it on for your use. Google thinks that your account may become vulnerable to hackers.
+
+# If the 2 step verification is turned on then you won't be able to view less secure apps settings.
+
+# Link to less secure apps settings 'https: // myaccount.google.com/lesssecureapps'
